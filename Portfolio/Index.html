@@ -16,15 +16,37 @@
     <script src="script.js"></script>
   </head>
 
-  <header class="header">
-    <nav>
-      <div class="contenedor">
-        <ul class="ulista">
-          <li><a class="barra" href="#"> Perfil</a></li>
-          <li><a class="barra" href="#"> Formación</a></li>
-          <li><a class="barra" href="#"> Habilidades</a></li>
-          <li><a class="barra" href="#"> Contacto</a></li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mi Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#perfil">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#formacion">Formación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
@@ -44,36 +66,48 @@
 
     <p id="ubicacion" style="text-align: center">Santa Rosa, La Pampa</p>
 
-    <div>
-      <h3>Perfil personal</h3>
-      <p>
-        Estudiante de Licenciatura en Ciencia Política, actualmente finalizando
-        mi tesis de grado.
-      </p>
-      <p>
-        Hace algunos años comence a incursionar en el mundo del analisis de
-        datos y programacion.
-      </p>
+    <div class="perfil2">
+      <section id="perfil">
+        <h3 id="h3perfil" style="text-align: center">Perfil personal</h3>
+        <p id="pespecial" style="text-align: center">
+          Me considero serio y responsable, con facilidad y predisposicion para
+          aprender. Siempre dispuesto a afrontar nuevos desafios.
+        </p>
+        <p id="pespecial" style="text-align: center">
+          Soy Estudiante de Licenciatura en Ciencia Política, actualmente
+          finalizando mi tesis de grado. Siempre me apasionaron las ciencias
+          sociales.
+        </p>
+        <p id="pespecial" style="text-align: center">
+          Hace algunos años comence a incursionar en el mundo del analisis de
+          datos y programación. Mi objetivo es poder combinar ambas disciplinas,
+          la tecnologia es un gran aliado para los cientistas sociales.
+        </p>
+      </section>
     </div>
-    <div>
-      <h3>Formación Academica</h3>
-      <p>
-        Licenciatura en Ciencia Política - Universidad Nacional de Villa Maria
-      </p>
-    </div>
-    <div>
-      <h3>Otros Cursos y formaciones</h3>
-      <ul>
-        <li>Data Analitycs - CoderHouse</li>
-        <li>
-          Introduccion a R para Ciencias Sociales - Universidad Nacional de
-          Quilmes
-        </li>
-        <li>
-          Comunicación Institucional Pública: Estrategias y Herramientas de
-          Gestión Digital - Universidad Católica de Córdoba
-        </li>
-      </ul>
+
+    <div class="formaciones">
+      <section id="formacion">
+        <h3 style="text-align: center">Formación Academica</h3>
+        <p style="text-align: center">
+          Licenciatura en Ciencia Política - Universidad Nacional de Villa Maria
+        </p>
+
+        <h3 id="h3perfil" style="text-align: center">
+          Otros Cursos y formaciones
+        </h3>
+        <ul style="text-align: center">
+          <li>Data Analitycs - CoderHouse</li>
+          <li>
+            Introduccion a R para Ciencias Sociales - Universidad Nacional de
+            Quilmes
+          </li>
+          <li>
+            Comunicación Institucional Pública: Estrategias y Herramientas de
+            Gestión Digital - Universidad Católica de Córdoba
+          </li>
+        </ul>
+      </section>
     </div>
     <div>
       <h3>Habilidades</h3>
@@ -114,5 +148,10 @@
         </a>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

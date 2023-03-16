@@ -22,7 +22,7 @@ h1 {
 .nuevo {
   display: flex;
   justify-content: center;
-  padding: 45px;
+  padding: 55px;
 }
 
 .frontal {
@@ -31,29 +31,44 @@ h1 {
   border: solid 2px rgb(0, 18, 31);
 }
 
-.header {
-  background-color: rgb(0, 18, 31);
-  height: 80px;
+#h3perfil {
+  font-size: 60px;
 }
 
-.ulista li .barra {
-  cursor: pointer;
-  text-decoration: none;
-  color: aliceblue;
+#pespecial {
+  font-size: 20px;
 }
 
-.ulista {
-  list-style: none;
-  display: flex;
-  justify-content: center;
+.perfil2 {
+  padding: 20%;
+  background-color: rgb(3, 179, 91);
 }
 
-.barra {
-  padding: 20px;
-  font-size: 25px;
+.formaciones {
+  padding: 50%;
+  background-color: rgb(70, 94, 160);
 }
 
+#h3formacion {
+  font-size: 60px;
+}
 
-h3{
-  padding: 55px;
+header {
+  position: unset;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link:last-child {
+  margin-right: 0;
 }
