@@ -1,0 +1,33 @@
+s .col-sm-3 {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.frontal {
+  display: flex;
+  justify-content: center;
+  border-radius: 25%;
+  border: solid 2px rgb(0, 18, 31);
+}
+
+#h3perfil {
+  font-size: 80px;
+  padding-bottom: 25px;
+}
+
+#pespecial {
+  font-size: 25px;
+  padding: 10px;
+}
+
+#perfil {
+  padding: 10%;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/008/138/203/non_2x/minimalist-futuristic-light-gradient-wavy-particles-on-white-background-abstract-smooth-technology-wave-composition-vector.jpg);
+  background-size: cover;
+  backdrop-filter: blur(10px) grayscale(100%) saturate(150%) hue-rotate(45deg);
+}
+
+.fondospan {
+  background-color: whitesmoke;
+}

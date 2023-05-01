@@ -1,0 +1,44 @@
+#habilidades {
+  background-image: url(https://media.istockphoto.com/id/1045283326/vector/city-skyline-vector-illustration.jpg?s=612x612&w=0&k=20&c=VKiwARML-YiIqTBo6EUvv-sdXoESQdOlhhFa92UgXGA=);
+  background-size: contain;
+  padding: 100px;
+  justify-content: flex-start;
+}
+.progress {
+  padding: 20px;
+}
+
+.progress-bar {
+  height: 50px;
+  font-size: 20px;
+  color: #000;
+  padding-bottom: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.progress,
+.progress-stacked {
+  --bs-progress-bg: transparent;
+}
+
+.skill-container p {
+  font-size: 35px;
+  margin-bottom: 1px;
+}
+
+.h1 {
+  display: flex;
+  font-size: 50px;
+  text-align: center;
+}
+
+.fondospan {
+  background-color: whitesmoke;
+}

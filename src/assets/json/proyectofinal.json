@@ -1,0 +1,102 @@
+{
+  "nombre": "Andrés",
+  "Apellido": "Grubisich",
+  "Edad": "25",
+  "Puesto": "Desarrollador",
+  "Sobre Mi": "Estudiante de Lic. Ciencia Politica",
+  "LogosAP": "./assets/img/favicon/APLogo.png",
+  "Login": "./assets/img/favicon/clipart.png",
+  "Redes": [
+    {
+      "id": 1,
+      "icono": "./assets/img/favicon/LinkedIn-Logo.png",
+      "url": "https://www.linkedin.com/in/andr%C3%A9s-grubisich-7434b11b0/",
+      "descripcion": "LinkedIn"
+    },
+    {
+      "id": 2,
+      "icono": "./assets/img/favicon/Instalogo.png",
+      "url": "https://www.instagram.com/angrubisich/",
+      "descripcion": "Instagram"
+    }
+  ],
+  "Presentacion": [
+    {
+      "id": 1,
+      "texto": "Hola! soy"
+    },
+
+    {
+      "id": 2,
+      "texto": "Andrés Grubisich"
+    },
+    { "id": 3, "texto": "Bienvenidos a mi sitio web" },
+    {
+      "id": 4,
+      "texto": "Los invito a conocerme y hechar un vistaso a mi trabajo"
+    }
+  ],
+  "botonVerMas": "fas fa-chevron-down",
+  "FotoPerfil": "./assets/img/favicon/fotcv.jpg",
+
+  "Perfil": [
+    {
+      "id": 1,
+      "texto": "Perfil Personal"
+    },
+    {
+      "id": 2,
+      "texto": "Soy Estudiante de Licenciatura en Ciencia Política, actualmente finalizando mi tesis de grado. Siempre me apasionaron las ciencias sociales"
+    },
+    {
+      "id": 3,
+      "texto": "Hace algunos años comence a incursionar en el mundo del analisis de datos y programación. Mi objetivo es poder combinar ambas disciplinas, la tecnologia es un gran aliado para los cientistas sociales."
+    }
+  ],
+
+  "Formacion": [
+    {
+      "id": 1,
+      "titulo": "Licenciatura en Ciencia Politica",
+      "icono": "./assets/img/favicon/LogoUNVM.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Data Analisys",
+      "icono": "./assets/img/favicon/coderlogo.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Comunicación Institucional Pública: Estrategias y Herramientas de Gestión Digital",
+      "icono": "./assets/img/favicon/SIGLA_UCC.png"
+    }
+  ],
+  "Apartado": "Habilidades",
+
+  "Habilidades": [
+    {
+      "id": 1,
+      "titulo": "Desarrollo Web",
+      "Porcentaje": "50%",
+      "color": "bg-info text-dark"
+    },
+    {
+      "id": 2,
+      "titulo": "Data Analisys",
+      "Porcentaje": "75%",
+      "color": "bg-warning text-dark"
+    },
+    {
+      "id": 3,
+      "titulo": "Comunicacion Digital",
+      "Porcentaje": "80%",
+      "color": "bg-danger"
+    },
+    {
+      "id": 3,
+      "titulo": "Paquete Office",
+      "Porcentaje": "100%",
+      "color": "bg-dark-green"
+    }
+  ]
+}

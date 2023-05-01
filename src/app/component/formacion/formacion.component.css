@@ -1,0 +1,21 @@
+#formacion {
+  background-image: url(https://static.tumblr.com/e9d758ec88516e26affbc574792e363f/hpcltsq/K9bnpg9wq/tumblr_static_bvhae87ad7w448cos8s8cskso.png);
+  padding: 180px;
+}
+
+.parrafo {
+  font-size: 45px;
+  text-align: center;
+}
+
+.foto {
+  margin-left: 400px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+#presentacion {
+  background-size: cover;
+  background-image: url(https://e0.pxfuel.com/wallpapers/890/796/desktop-wallpaper-lines-of-code-%C2%B7-stock.jpg);
+  padding-bottom: 180px;
+  padding-top: 100px;
+}
+
+#nombre {
+  font-size: 88px;
+}
+
+#bienvenida {
+  font-size: 30px;
+  padding: 0px;
+}
+
+.fondospan {
+  color: white;
+}
