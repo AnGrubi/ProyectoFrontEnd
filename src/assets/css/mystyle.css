@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600;800&display=swap");
+* {
+  font-family: "League Spartan", sans-serif;
+  margin: 0%;
+  padding: 0.3%;
+  box-sizing: border-box;
+  color: rgb(5, 44, 71);
+}
+
+.navbar {
+  background-color: rgb(5, 44, 71);
+  height: 80px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Cambia el color de texto aquí */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107; /* Cambia el color del texto de los botones cuando el cursor pasa sobre ellos */
+}
+
+#presentacion {
+  background-size: auto;
+  background-image: url(https://img.freepik.com/free-vector/white-digital-matrix-binary-code-numbers-background_1017-25332.jpg);
+  padding: 130px;
+}
+
+.contain {
+  margin-top: -100px;
+}
+
+#nombre {
+  font-size: 88px;
+}
+
+#bienvenida {
+  font-size: 30px;
+  padding: 0px;
+}
+
+#scroll-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+  background-color: rgb(5, 44, 71);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  z-index: 1;
+  width: 250px;
+  font-size: 20px;
+}
+
+#scroll-btn i {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#scroll-btn:hover {
+  background-color: #555;
+}
+s .col-sm-3 {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.frontal {
+  display: flex;
+  justify-content: center;
+  border-radius: 25%;
+  border: solid 2px rgb(0, 18, 31);
+}
+
+#h3perfil {
+  font-size: 80px;
+  padding-bottom: 25px;
+}
+
+#pespecial {
+  font-size: 25px;
+  padding: 10px;
+}
+
+#perfil {
+  padding: 10%;
+  background-image: url(https://wallpaperaccess.com/full/868844.png);
+  background-size: contain;
+}
+
+#formacion {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c657e42-5a12-4026-9e93-36edb9ccb1a5/dcq7tzn-6fe09b85-5a0e-4dba-a65f-3ab8fa3c5e2e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljNjU3ZTQyLTVhMTItNDAyNi05ZTkzLTM2ZWRiOWNjYjFhNVwvZGNxN3R6bi02ZmUwOWI4NS01YTBlLTRkYmEtYTY1Zi0zYWI4ZmEzYzVlMmUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8IC5Zvu4MJcNO2VDr8ctW4rBHz3uqq3xorjXYzK9hSI);
+  background-size: cover;
+  padding-bottom: 200px;
+}
+
+#habilidades {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/868/206/424/person-in-white-top-and-black-shorts-standing-in-the-middle-of-grass-field-wallpaper-preview.jpg);
+  background-size: cover;
+}
+
+.col-sm-6 {
+  display: flex;
+  justify-content: center;
+}
+
+#formacion > div,
+#habilidades > div {
+  display: flex;
+  justify-content: center;
+}
+
+#formacion .row {
+  padding-top: 60px;
+}
+
+#habilidades .row {
+  padding-top: 150px;
+  margin-bottom: 100px;
+}
+
+.card-title {
+  font-size: 60px;
+}
+
+.card-body {
+  padding-bottom: 580px;
+}
+
+.card-subtitle {
+  font-size: 35px;
+}
+
+.card-text {
+  font-size: 25px;
+}
+
+#h3formacion {
+  font-size: 50px;
+}
+
+#listaformacion {
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+header {
+  position: unset;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link:last-child {
+  margin-right: 0;
+}
+
+#btn-top {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
